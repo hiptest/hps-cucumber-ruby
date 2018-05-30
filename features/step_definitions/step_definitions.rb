@@ -39,7 +39,7 @@ When /^I fill the water tank$/ do
   i_fill_the_water_tank
 end
 
-Given /^I take "(.*)" coffees$/ do |coffee_number|
+When /^I take "(.*)" coffees$/ do |coffee_number|
   i_take_coffee_number_coffees(coffee_number)
 end
 
